@@ -11,8 +11,8 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
     - [Links](#links)
   - [My process](#my-process)
     - [Built with](#built-with)
+    - [What Learned](#what-learned)
 
-**Note: Delete this note and update the table of contents based on what sections you keep.**
 
 ## Overview
 
@@ -34,3 +34,18 @@ Below is a screenshot of the complete challenge solution.
 - CSS 
 - Flexbox
 - Mobile-first workflow
+
+### What Learned
+- When centering a Card in an empty page, you need to setup height of the parent container, i.e 100vh. Example of the above trick is highlighted in container class
+
+```css
+.container {
+    max-width: 1440px;
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+```
